@@ -1,0 +1,42 @@
+/*global style*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
+/*   
+    #1f7798; mid-blue
+    
+*/
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #a4c2d1; /*egg blue*/
+}
+
+h1,
+h2 {
+    font-family: "DM Serif Display", serif;
+    color: #184f63; /*dark-blue*/
+}
+
+/* About Section*/
+#about {
+    background-color: white;
+}
+
+/* Portfolio Section*/
+#portfolio {
+    background-color: #dbdcde; /*light grey*/
+}
+
+/* Contact section*/
+#contact {
+    background-color: white;
+}
+
+/* Header */
+#hero {
+    background-color: #dbdcde;
+    background-image: url(../images/background.webp);
+    background-size: cover;
+    background-position: 50% 70%;
+    min-height: 500%;
+    padding: 5% 7%;
+}
